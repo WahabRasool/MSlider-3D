@@ -1,0 +1,18 @@
+.slider {
+    margin: 80px 0;
+    height: 200px;
+    display: block;
+    perspective: 1000px;
+    position: relative;
+    width: 100%;
+  }
+  .slider img {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 0.4s all;
+  }
+  .slider img.active {
+    z-index: 4;
+  }
